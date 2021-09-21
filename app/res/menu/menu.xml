@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/spring"
+        android:title="봄웜" />
+    <item
+        android:id="@+id/summer"
+        android:title="여름쿨" />
+    <item
+        android:id="@+id/fall"
+        android:title="가을웜" />
+    <item
+        android:id="@+id/winter"
+        android:title="겨울쿨" />
+</menu>

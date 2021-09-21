@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#4DECDAE3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/personal_color" />
+
+        <TextView
+            android:id="@+id/textfield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textIsSelectable="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/test"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="#79F7BED0"
+                android:onClick="onClick"
+                android:text="START TEST"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/what"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="#79F7BED0"
+                android:onClick="onClick"
+                android:text="WHAT IS THIS?"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/result"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="#79F7BED0"
+                android:onClick="onClick"
+                android:text="RESULT LIST"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/hp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="#79F7BED0"
+                android:onClick="onClick"
+                android:text="go Colorz"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <ToggleButton
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:checked="true"
+            android:onClick="music"
+            android:shadowColor="#000000"
+            android:textAllCaps="false"
+            android:textIsSelectable="false"
+            android:textOff="BGM OFF"
+            android:textOn="BGM ON"
+            android:typeface="serif"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="ⓒ Copyright 2019. (NAMJISU) all rights reserved."
+            android:textSize="10dp" />
+
+    </LinearLayout>
+</ScrollView>

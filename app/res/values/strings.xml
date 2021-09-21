@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">PersonalColorTest</string>
+
+    <string-array name="question">
+        <item>얼굴색 피부(Skin Tone)은 어떤가요?</item>
+        <item>볼에 홍조가 있나요?</item>
+        <item>자외선에 잘 타는 타입인가요?</item>
+        <item>나의 머리카락 색상은?</item>
+        <item>나의 눈동자 색상은?</item>
+        <item>나의 피부 밝기는?</item>
+        <item>나의 머리카락 굵기는?</item>
+        <item>나의 머리카락은 윤기가 있나요?</item>
+        <item>나의 이미지는?</item>
+    </string-array>
+
+    <string-array name="tip">
+        <item>잘 모르겠다면 목 주변을 살펴보세요! (●부분을 중점으로 보세요) 동양인 이라고 모두 노란 피부는 아니에요. 자연스러운 채광이 있는 곳에서 확인하세요.</item>
+        <item>잘 모르겠다면 ●부분을 중점으로 보세요. 갑작스런 감정변화나 얼굴의 화끈거림으로 인한 홍조로는 판단하지 마세요! 평상시 쉽게 홍조가 생기는지 생각해 보세요.</item>
+        <item>피부가 자외선에 쉽게 타고 한달 이상 계속된다면 오래 지속된다로 표기해주세요. (● 부분이 잘 타는지 봐주세요. )</item>
+        <item>염색을 했을 경우 염색을 하지 않은 원래 머리 두피에 가까운 머리카락으로 색상을 확인해주세요. 잘 모르겠다면 눈썹 색상을 참조해도 됩니다 !(● 부분을 봐주세요)</item>
+        <item>컬러렌즈를 착용하지 않은 본인의 눈동자색을 확인하세요. 시선을 약간 위로 향하고 거울을 보면 더 쉽게 확인할 수 있습니다. (●부분을 보세요)</item>
+        <item>보통 피부가 실제보다 어둡다고 생각하시는 분들이 많아요! 아래 톤을 보고 가장 가까운 곳에 체크하세요 (● 부분을 봐주세요)</item>
+        <item>모발이 얇고 가는지, 두껍고 굵은지 체크해주세요! (●부분을 보세요)</item>
+        <item>모발에 윤기가 있는 편인지, 퍽퍽하고 메마른 편인지 체크해주세요! (● 부분을 보세요)</item>
+        <item>본인이 되고 싶은 이미지가 아니라 자신의 객관적인 이미지를 체크하세요. (주변사람들에게 객관적으로 어떤 이미지로 보이는지 물어봐도 좋아요)</item>
+    </string-array>
+
+    <string-array name="a1">
+        <item>노란기가 있는 복숭아 빛 계열 \n(Yellow Base)</item>
+        <item>핑크 빛이 도는 붉은 빛 계열  \n(Blue Base)</item>
+    </string-array>
+    <string-array name="a2">
+        <item>홍조가 없거나 미세하여 얼굴색의 변화를 주지 않는다.\n(No)</item>
+        <item>홍조가 심하거나, 자주 얼굴에 붉은 홍조가 나타난다.\n(Yes)</item>
+    </string-array>
+    <string-array name="a3">
+        <item>까맣게 타고 오래 지속된다.\n(Yes)</item>
+        <item>붉게 탔다가 금방 원래 피부로 돌아온다.\n(No)</item>
+    </string-array>
+    <string-array name="a4">
+        <item>밝은 브라운\n(Brown)</item>
+        <item>다크 브라운\n(Dark Brown)</item>
+        <item>블랙 \n(Black)</item>
+    </string-array>
+    <string-array name="a5">
+        <item>브라운 계열\n(Brown Base)</item>
+        <item>레드 브라운 계열\n(Red Brown Base)</item>
+    </string-array>
+    <string-array name="a6">
+        <item>밝은 톤\n(Bright Tone)</item>
+        <item>중간 톤\n(Soft Tone)</item>
+        <item>어두운 톤\n(Depp Tone)</item>
+    </string-array>
+    <string-array name="a7">
+        <item>모발이 얇고 가늘다.</item>
+        <item>모발이 두껍고 굵다.</item>
+    </string-array>
+    <string-array name="a8">
+        <item>모발이 윤기가 없고 메마른 편이다.\n(No)</item>
+        <item>모발이 윤기가 있고 부드러운 편이다.\n(Yes)</item>
+    </string-array>
+    <string-array name="a9">
+        <item>부드럽고 여성스럽고 우아한 이미지\n(Feminine, Attractive Style)</item>
+        <item>눈동자가 또렷하고 도시적인 이미지\n(Modern, Intellectual Style)</item>
+    </string-array>
+
+
+    <string name="personal_color">
+        개인이 가진 신체의 색과 어울리는 색. 사용자에게 생기가 돌고 활기차 보이도록 연출하는 이미지 관리 따위에 효과적이다.
+    </string>
+
+    <string-array name="color">
+        <item>봄(Spring)은 노란색을 지닌 따뜻한 유형으로 선명(vivid)하고 밝은(bright)톤과 엺은(pale)톤으로 화사하며 생동감과 에너지를 느끼게 한다.
+        복숭아 빛과 노르스름한 빛이 감도는 피부와 밝은 갈색비의 윤기 나는 머리색과 노란 빛이 감도는 연한 눈동자로 생기 발랄한 인상과
+        귀엽고 사랑스런 유형이다.</item>
+        <item>여름(Summer)은 흰색과 파랑을 지닌 차가운 유형으로 부드러움(soft)과 밝은 (right)톤, 밝은 잿빛(right grayish)톤의
+        시원스럽고 화려함을 느끼게 한다. 핑크 빛과 붉은 빛이 감도는 피부에 얇고 윤기가 없으며 회갈색을 띈 머리카락과 부드러운 갈색빛의
+        눈동자는 차분하면서 고급스러운 유형이다.</item>
+        <item>가을(Authunn)은 황색을 지닌 따뜻한 유형으로 강한(storng)톤과 깊은(deep)톤, 중후한(dull)톤으로 편안함과 고급스러운 이미지를 느끼게 한다.
+        황색 빛이 도는 누르스름한 피부에 황갈색 빛이 감도는 짙은 갈색의 머리카락과 눈동자색은 황색빛과 짙은 갈색빛으로 차분하며 깊이감 있는 유형이다.</item>
+        <item>겨울(Winter)은 파랑과 흰색, 검정을 지닌 차가운 유형으로 선명(vivid)하고 엺은(pale)톤, 어두운(dark)톤의 모던하며 도시적인 강렬함을 느끼게
+        한다. 투명하고 핏기가 없는 창백한 피부에 푸른빛이 감도는 갈색과 검은빛의 머리카락, 푸른빛과 갈색빛의 눈동자는 강렬하고 개성이 강한 유형이다.
+        </item>
+    </string-array>
+</resources>
