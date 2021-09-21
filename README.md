@@ -1,5 +1,5 @@
 # Personal Color Test App 😘💄
 
->> Personal Color Test App (퍼스널 컬러 테스트 앱) by Android Studio
->> <br/>
->> 모바일 프로그래밍 Final Project
+> Personal Color Test App (퍼스널 컬러 테스트 앱) by Android Studio
+> <br/>
+> 모바일 프로그래밍 Final Project
